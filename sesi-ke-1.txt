@@ -1,0 +1,21 @@
+           Nama           : Bibin aripin
+           Kelas            : TI20C 
+           NIM              : 20200040002
+           Mata kuliah : Pemograman Berorientasi Objek
+
+
+
+1.	Buatlah dan Deskripsikan object di sekitar ruman anda . Setiap Mahasiswa harus  berbeda :
+Jawab : 
+CLASS
+mobil
+PROPERTY
+Jumlah roda
+Jumlah kursi
+Warna mobil 
+transmisi
+METHOD
+Jalankan 
+matikan
+OBJECT 
+Mobil sedan
