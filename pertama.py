@@ -11,3 +11,7 @@ data_string = "ucup"
 
 print(type(data_string))
 print("data ",data_string," bertipe ",type(data_string))
+
+data_bool = True
+print(type(data_bool))
+print("data ",data_bool," bertipe ",type(data_bool))
