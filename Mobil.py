@@ -1,19 +1,28 @@
 class Mobil():
-
-    def __init__(self, jumlah_roda, transmisi, merk):  
-        self.jumlah_roda = jumlah_roda                        
-        self.transmisi = transmisi                            
+                                                                                     #nama: Bibin aripin
+    def __init__(self, jumlah_roda, transmisi, merk):                                #kelas : TI20C
+        self.jumlah_roda = jumlah_roda                                               #NIM : 20200040002
+        self.transmisi = transmisi                                                   #TUGAS OOP : inheritance(pewarisan)
         self.merk = merk  
 
     def jalankan(self):
         print("ayo jalan "+self.merk)	
 
 class Mobiltruck(Mobil):                                                                
-     pass                                 
-   
+     
+    def __init__(self, jumlah_roda, transmisi, merk, muatan_max):
+
+        super().__init__(jumlah_roda, transmisi, merk)
+        self.muatan = muatan_max
+
+    def maxMuatan(self, muatan):
+        print("max muatan "+self.muatan)    
+                                 
 sedan = Mobil(4, "auto", "mazda")
-truck = Mobiltruck(8, "manual", "volvo")
 sedan.jalankan()
-truck.jalankan()
+truck = Mobiltruck(8, "manual", "hino", 1000)
+
+print(sedan.__dict__)
+print(truck.__dict__)
  
-    	
+ 
